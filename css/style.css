@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    font-family: SUSE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #DAF7DC;
+}
+
+h1{
+    color: #2F4858;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 80px;
+    margin-top: 3rem;
+}
+
+.grid{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12rem 2rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.atv a{
+    position: relative;
+    color: #336699;
+}
+
+.atv a:hover{
+    color: #86BBD8;
+}
+
+/* 
+#86BBD8
+#2F4858
+#336699
+*/

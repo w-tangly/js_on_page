@@ -2,7 +2,7 @@ function calcularPreco(){
     //cria referencia aos elementos da página
     let inQuilo=document.getElementById("inQuilo")
     let inConsumo=document.getElementById("inConsumo")
-    let outValor=document.getElementsById("outValor")
+    let outValor=document.getElementById("outValor")
     //abtem conteudom dos campos de edição da página
     let quilo=Number(inQuilo.value)
     let consumo=Number(inConsumo.value)

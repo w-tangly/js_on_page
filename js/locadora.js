@@ -5,7 +5,7 @@ function converteDuracao(){
     let outResposta = document.getElementById("outResposta")
     let titulo = inTitulo.value
     let duracao = Number(inDuracao.value)
-    let horas = Math.floor(duracao) / 60
+    let horas = Math.floor(duracao)/60
     let minutos = duracao % 60
     outTitulo.innerHTML = titulo
     outResposta.innerHTML = horas + "hora(s) e " + minutos + "minuto(s)"
